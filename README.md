@@ -50,7 +50,9 @@ Primeiramente criamos um grafo da cidade de Nata/RN, assim obtendo as coordenada
 ![image](https://github.com/user-attachments/assets/a0667a88-0b77-47ad-ae6d-90805dbb3e52)
 
 
-Analisando os resultados podemos perceber que só temos dois caminhos e um deles é o Dijkstra. Isso se dá ao fato de que a rota escolhida pelo Dijkstra com e sem heap foram a mesma, porque ambos são o mesmo algorítmo, apenas diferem na estrutura usada para escolher o nó com o menor custo. O outro caminho é o OSMNx, nos mostrando em todas as imagens que a rota escolhida por ele é levemente mais extensa que a escolhida pelo Dijkstra. Uma explicação possível para isso é que o OSMNx usa `NetworkX`, que depende fortemente da estrutura e integridade dos dados do grafo, o que pode afetar a qualidade do caminho escolhido.
+Analisando os resultados podemos perceber que só temos dois caminhos e um deles é o Dijkstra. Isso se dá ao fato de que a rota escolhida pelo Dijkstra com e sem heap foram a mesma, porque ambos são o mesmo algorítmo, apenas diferem na estrutura usada para escolher o nó com o menor custo. O outro caminho é o OSMNx, nos mostrando em todas as imagens que a rota escolhida por ele é levemente mais extensa que a escolhida pelo Dijkstra. Uma explicação possível para isso é que o OSMNx usa `NetworkX`, que depende fortemente da estrutura e integridade dos dados do grafo, o que pode afetar a qualidade do caminho escolhido.  
+
+Foi possível observar que como esperado a eficiência computacional do Dijkstra com heap é bem maior que a sem heap, isso se dá pelo motivo de que o com heap usa uma fila de prioridade (heap) para escolher rapidamente o próximo nó mais próximo, enquanto a versão sem heap não faz isso e itera todos os nós a cada passo, deixando extremamente mais pesado em grafos maiores.
 
 
 
