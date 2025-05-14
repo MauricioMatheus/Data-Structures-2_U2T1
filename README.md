@@ -42,7 +42,15 @@ Primeiramente criamos um grafo da cidade de Nata/RN, assim obtendo as coordenada
 
 ### Rota mais curta do hospital para Pajuçara:  
 
-![image](https://github.com/user-attachments/assets/639c195f-2c74-4520-ba1b-6c9090d70b6d)
+![image](https://github.com/user-attachments/assets/639c195f-2c74-4520-ba1b-6c9090d70b6d)    
+
+
+### Tabela de comparação entre os algorítmos:  
+
+![image](https://github.com/user-attachments/assets/a0667a88-0b77-47ad-ae6d-90805dbb3e52)
+
+
+Analisando os resultados podemos perceber que só temos dois caminhos e um deles é o Dijkstra. Isso se dá ao fato de que a rota escolhida pelo Dijkstra com e sem heap foram a mesma, porque ambos são o mesmo algorítmo, apenas diferem na estrutura usada para escolher o nó com o menor custo. O outro caminho é o OSMNx, nos mostrando em todas as imagens que a rota escolhida por ele é levemente mais extensa que a escolhida pelo Dijkstra. Uma explicação possível para isso é que o OSMNx usa `NetworkX`, que depende fortemente da estrutura e integridade dos dados do grafo, o que pode afetar a qualidade do caminho escolhido.
 
 
 
