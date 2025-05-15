@@ -6,6 +6,9 @@
 ### • Maurício Matheus Araújo Silva Galvão  
 
 
+
+Link para o vídeo explicativo: https://drive.google.com/drive/u/0/folders/1ghKkB1SeIr4uw_xilaxyV2jw2oH9XzuS
+
 Nesta atividade foi utilizado como cenário o roteamento para serviços de emergência, onde foi avaliado o tempo de resposta de ambulâncias saindo do Hospital Walfredo Gurgel para diferentes bairros, os quais foram:
 
 • Alecrim;  
